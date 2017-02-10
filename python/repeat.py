@@ -8,7 +8,7 @@ nums=int(input('how many numbers you want?'))
 summ=0
 while i<nums:
     print('input number %d: ' % i)
-    numbers.append(input())
+    numbers.append(int(input()))
     i=i+1
 
 print('-------------')
@@ -19,6 +19,6 @@ print('their sum is:')
 
 #print(type(numbers[1]))
 for el in numbers:
-    summ=summ+int(el)
+    summ=summ+el
 
 print(summ)
