@@ -167,7 +167,7 @@ def Training(model,train_gen,valid_gen):
     model.fit_generator(
         train_gen,
         steps_per_epoch = 200,
-        epochs = 40,
+        epochs = 80,
         validation_data = valid_gen,
         #shuffle = True
     )
